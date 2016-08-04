@@ -17,5 +17,4 @@ build
     dependencies: [
       'node_modules/jquery/dist/jquery.js'
       'node_modules/qing-module/dist/qing-module.js'
-    ],
-    singleRun: true
+    ]

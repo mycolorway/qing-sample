@@ -16,12 +16,6 @@ Install via npm:
 npm install --save qing-module
 ```
 
-Install via bower:
-
-```bash
-bower install --save qing-module
-```
-
 ## Development
 
 Clone repository from github:
