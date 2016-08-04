@@ -1,8 +1,8 @@
 gulp = require 'gulp'
-initBuild = require 'qing-build'
+build = require 'qing-build'
 pkg = require './package.json'
 
-build = initBuild
+build
   gulp: gulp
   name: pkg.name
   githubOwner: 'mycolorway'
@@ -19,8 +19,3 @@ build = initBuild
       'node_modules/qing-module/dist/qing-module.js'
     ],
     singleRun: true
-
-gulp.task 'default', build.dev
-gulp.task 'compile', build.compile
-gulp.task 'test', build.test
-gulp.task 'publish', build.publish
